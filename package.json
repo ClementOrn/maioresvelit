@@ -1,0 +1,46 @@
+{
+  "name": "maioresvelit",
+  "version": "1.0.0",
+  "description": "ESLint config for the idiomatic js style",
+  "keywords": [
+    "nobis",
+    "eslint",
+    "omnis",
+    "nihil",
+    "style",
+    "guide"
+  ],
+  "main": "index.js",
+  "files": [
+    ".eslintrc*",
+    "LICENSE",
+    "*.js",
+    "lib/*"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha -r ./test/support/support"
+  },
+  "author": "JosefaJacobs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClementOrn/maioresvelit.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "peerDependencies": {
+    "eslint": "3.x"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ClementOrn/maioresvelit.git/issues"
+  },
+  "homepage": "https://github.com/ClementOrn/maioresvelit.git"
+}
